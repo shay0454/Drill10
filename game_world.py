@@ -4,7 +4,7 @@ from pico2d import *
 
 #게임 월드의 표현
 #두개의 layer를 갖는 게임월드로 구현
-objects=[[],[]]
+objects=[[],[],[]]
 def add_object(o,depth=0):
     objects[depth].append(o)
 
