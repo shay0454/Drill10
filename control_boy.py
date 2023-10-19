@@ -31,6 +31,7 @@ def create_world():
 
     game_world.add_object(Grass(400,50),2)
     game_world.add_object(Grass(400,70),0)
+
     boy = Boy()
     game_world.add_object(boy,1)
 
